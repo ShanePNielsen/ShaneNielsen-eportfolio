@@ -1,0 +1,55 @@
+body{background: #FF5376;}
+h1 {
+  border: 5px solid pink;
+    font-family: serif;
+    font-size: 100px;
+    color: papayawhip;
+    text-align: center
+}
+p {
+  text-align: center;
+    font-size: 30px;
+    color: peachpuff
+}
+a {
+  text-align: center;
+    color: peachpuff
+}
+h2 {
+  text-align: center;
+    font-size: 50px;
+    font-family: serif;
+    color: peachpuff
+}
+h3 {
+  text-align: center;
+    font-size: 30px;
+    font-family: serif;
+    color:lightpink
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+h4 {
+    text-align: center;
+}
+
+h1 {
+  animation-duration: 2s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
